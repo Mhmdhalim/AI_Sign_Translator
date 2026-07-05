@@ -1,64 +1,233 @@
-# 🤖 AI Sign Language Translator
+# ✋ Sign Language Recognition (ASL Project)
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg)](https://opencv.org)
-[![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.0-red.svg)](https://mediapipe.dev)
+This project is a real-time American Sign Language (ASL) recognition system using:
+- MediaPipe Hands
+- TensorFlow / Keras
+- OpenCV
+- Scikit-learn
 
-> Real-time sign language translation to text and speech using AI
-
----
-
-## ⚠️ IMPORTANT NOTES (Read First!)
-
-Before you start, make sure you understand these **critical requirements**:
-
-### 🔴 Mandatory Requirements
-
-| Requirement | Why? | How? |
-|-------------|------|------|
-| **Python 3.8+** | MediaPipe and OpenCV require Python 3.8 or higher | Check: `python --version` |
-| **Dataset** | The app won't work without data | Download from [link] and place in `dataset/` |
-| **Virtual Environment** | Prevents library conflicts | Create with `python -m venv env` |
-| **MediaPipe Version** | Must use MediaPipe 0.10.0+ | `pip install mediapipe==0.10.0` |
-| **Standard Webcam** | Any built-in or USB webcam works | Built-in laptop camera or USB webcam |
-| **Git LFS** | Only if you plan to upload large files | `git lfs install` |
+It detects hand landmarks and classifies letters in real-time using a trained neural network.
 
 ---
 
-## 📥 Mandatory Dataset Download
+# 🚀 Features
 
-> **⚠️ CRITICAL:** The app will **NOT** work without the dataset!
-
-You **MUST** download the dataset before running the application:
-
-1. **Download from:**  
-   👉 [https://data.mendeley.com/public-api/zip/jdyksv2jhh/download/1](https://data.mendeley.com/public-api/zip/jdyksv2jhh/download/1)
-
-2. **Extract** the ZIP file
-
-3. **Rename the extracted folder** to `dataset` and place it in the project root: 
-> **❌ If the dataset is missing, you will get an error like:**  
-> `FileNotFoundError: dataset/A/sample1.jpg not found`
+- Real-time hand tracking via webcam
+- Landmark extraction (63 features per hand)
+- Neural network classification (A-Z signs)
+- High accuracy (~99% on test data)
+- Works offline after training
 
 ---
 
-## 📸 Camera Setup
+# 📁 Project Structure
 
-> **✅ Any standard webcam works!**  
-> - Built-in laptop camera ✅  
+```
 
-**No special camera required.** Just make sure:
-1. Your camera is connected (if external)
-2. Camera permissions are enabled
-3. No other app is using the camera
+ASL_Sign_Translator/
+│
+├── ASL_dataset/Train/        # Original images dataset
+├── landmark_dataset/         # Extracted landmarks (.npy files)
+├── models/                   # Trained model + classes
+├── utils/                   # Helper scripts
+│
+├── convert_dataset.py       # Converts images → landmarks
+├── train_model.py           # Trains ML model
+├── realtime_predict.py      # Live webcam prediction
 
-**To test your camera:**
+````
+
+---
+
+# ⚙️ Installation
+
+## 1. Create virtual environment
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+````
+
+## 2. Install dependencies
+
+⚠️ IMPORTANT: use compatible versions
+
+```bash
+pip install tensorflow==2.15.0
+pip install mediapipe==0.10.35
+pip install protobuf==3.20.3
+pip install opencv-python
+pip install scikit-learn
+pip install numpy
+```
+
+---
+
+# 🔄 Workflow
+
+## 1. Convert dataset (images → landmarks)
+
+```bash
+python convert_dataset.py
+```
+
+Output:
+
+```
+landmark_dataset/A/*.npy
+landmark_dataset/B/*.npy
+```
+
+---
+
+## 2. Train model
+
+```bash
+python train_model.py
+```
+
+Output:
+
+* Model saved in `models/`
+* Accuracy ~95%+
+
+---
+
+## 3. Run real-time prediction
+
+```bash
+python realtime_predict.py
+```
+
+Press:
+
+* `Q` → quit
+
+---
+
+# 💥 Common Problems & Fixes
+
+---
+
+## ❌ 1. Samples = 0 during training
+
+### Cause:
+
+Training script reading wrong dataset path or missing `.npy` files.
+
+### Fix:
+
+Make sure:
+
 ```python
-# Run this in Python to test
-import cv2
-cap = cv2.VideoCapture(0)
-if cap.isOpened():
- print("✅ Camera working!")
-else:
- print("❌ Camera not found")
-cap.release()
+DATASET_PATH = "landmark_dataset"
+```
+
+and not `ASL_dataset`.
+
+---
+
+## ❌ 2. Mediapipe error (FieldDescriptor / runtime_version)
+
+### Error:
+
+```
+AttributeError: 'FieldDescriptor' has no attribute 'label'
+ImportError: runtime_version from protobuf
+```
+
+### Cause:
+
+Version mismatch between:
+
+* mediapipe
+* tensorflow
+* protobuf
+
+### Fix:
+
+```bash
+pip uninstall mediapipe tensorflow protobuf -y
+pip install tensorflow==2.15.0
+pip install mediapipe==0.10.35
+pip install protobuf==3.20.3
+```
+
+---
+
+## ❌ 3. Mediapipe not detecting hands
+
+### Fix:
+
+* Increase lighting
+* Ensure hand is inside camera frame
+* Use `static_image_mode=False`
+
+---
+
+## ❌ 4. No `.npy` files generated
+
+### Cause:
+
+MediaPipe not detecting hands in images
+
+### Fix:
+
+Check:
+
+* image clarity
+* background contrast
+* correct dataset path
+
+---
+
+## ❌ 5. GPU warnings on Windows
+
+```
+TensorFlow GPU not available
+```
+
+### Fix:
+
+Ignore it (CPU mode works fine)
+
+---
+
+# 🧠 Model Details
+
+* Input: 63 features (x, y, z for 21 landmarks)
+* Output: A-Z classes
+* Model: Fully Connected Neural Network
+* Loss: categorical crossentropy
+
+---
+
+# 📊 Performance
+
+* Training Accuracy: ~99%
+* Test Accuracy: ~98–99%
+
+---
+
+# ⚠️ Notes
+
+* Dataset must be converted before training
+* Do NOT train directly on images
+* Always use landmark_dataset
+* Keep dependency versions fixed (very important)
+
+---
+
+# 🚀 Future Improvements
+
+* Real-time word building
+* Sentence recognition
+* Text-to-speech output
+* UI interface (Tkinter / Web App)
+
+---
+
+# 👨‍💻 Author
+
+Built as a full Computer Vision + Deep Learning project for ASL recognition.
+
