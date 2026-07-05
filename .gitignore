@@ -1,0 +1,27 @@
+﻿# Python environments
+env/
+.venv/
+.venv-1/
+venv/
+ENV/
+
+# Large files and datasets
+dataset/
+models/
+*.pyd
+*.dll
+*.task
+*.pickle
+*.h5
+*.pb
+*.tflite
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# IDE
+.vscode/
+.idea/
