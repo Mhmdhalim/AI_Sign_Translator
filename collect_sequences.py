@@ -103,18 +103,19 @@ while True:
     # Start Recording
     # ==========================
     if key == ord("r"):
-
-        save, video_path = recorder.record_sequence(
+        # , video_path
+        result = recorder.record_sequence(
             cap,
             hands,
             mp_draw,
             mp_hands
         )
 
-        if save:
+        if result:
 
             file_path = os.path.join(action_path, f"{counter}.npy")
-            recorder.save(file_path, video_path)
+            recorder.save(file_path)
+            # , video_path
 
             counter += 1
 

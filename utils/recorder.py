@@ -1,3 +1,5 @@
+from importlib.resources import path
+
 import cv2
 import time
 import numpy as np
@@ -58,16 +60,18 @@ class Recorder:
                     return False
 
         cv2.destroyWindow("Preview Recording")
-
-    def save(self, path, video_path=None):
+    # def save(self, path, video_path=None):
+    def save(self, path):
         np.save(path, np.array(self.frames))
-        print(f"[INFO] Saved NPY: {path}")
+        print(f"[INFO] Saved: {path}")
+        # np.save(path, np.array(self.frames))
+        # print(f"[INFO] Saved NPY: {path}")
 
-        if video_path is not None:
-            import shutil
-            video_save_path = path.replace(".npy", ".mp4")
-            shutil.move(video_path, video_save_path)
-            print(f"[INFO] Saved MP4: {video_save_path}")
+        # if video_path is not None:
+        #     import shutil
+        #     video_save_path = path.replace(".npy", ".mp4")
+        #     shutil.move(video_path, video_save_path)
+        #     print(f"[INFO] Saved MP4: {video_save_path}")
 
     def record_sequence(self, cap, hands, mp_draw, mp_hands):
         """
@@ -84,9 +88,9 @@ class Recorder:
 
         self.start()
         
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        out = None
-        video_path = None
+        # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        # out = None
+        # video_path = None
         
         while len(self.frames) < self.sequence_length:
 
@@ -95,10 +99,10 @@ class Recorder:
                 break
 
             frame = cv2.flip(frame, 1)
-            if out is None:
-                h, w, _ = frame.shape
-                video_path = "temp_recording.mp4"
-                out = cv2.VideoWriter(video_path, fourcc, 20.0, (w, h))
+            # if out is None:
+            #     h, w, _ = frame.shape
+            #     video_path = "temp_recording.mp4"
+            #     out = cv2.VideoWriter(video_path, fourcc, 20.0, (w, h))
             
             rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
@@ -135,7 +139,7 @@ class Recorder:
             )
 
             cv2.imshow("Recorder", frame)
-            out.write(frame)
+            # out.write(frame)
             cv2.waitKey(1)
 
             if cv2.waitKey(1) & 0xFF == ord("q"):
@@ -143,20 +147,28 @@ class Recorder:
                 return False
 
         print("[INFO] Recording finished")
-        out.release()
+    
+        # out.release()
 
         # Preview
         print("[INFO] Sequence recorded successfully (no preview for landmark data)")
-
+        return True
         # Ask user
         print("Save this sequence? (y/n): ")
+        # while True:
+        #     key = cv2.waitKey(0) & 0xFF
 
-        while True:
-            key = cv2.waitKey(0) & 0xFF
+        #     if key == ord("y"):
+        #         return True
+        #     # ,video_path
 
-            if key == ord("y"):
-                return True, video_path
-
-            elif key == ord("n"):
-                self.reset()
-                return False
+        #     elif key == ord("n"):
+        #         self.reset()
+        #         return False
+        # return True
+        
+""" 
+    All the modifications I made were related to saving the video, 
+    but I realized it would be quite large, 
+    and I might encounter problems uploading it to GitHub in the future.
+"""
