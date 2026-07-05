@@ -4,10 +4,12 @@ env/
 .venv-1/
 venv/
 ENV/
+train-env/
+run_env/
 
 #DATA
 ASL_Dataset/
-landmark_dataset
+landmark_dataset/
 
 # Large files and datasets
 dataset/
