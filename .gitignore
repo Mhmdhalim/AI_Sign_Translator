@@ -5,6 +5,9 @@ env/
 venv/
 ENV/
 
+#DATA
+ASL_Dataset/
+
 # Large files and datasets
 dataset/
 models/
