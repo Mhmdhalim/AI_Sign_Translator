@@ -6,24 +6,18 @@ venv/
 ENV/
 train_env/
 run_env/
+dataset_env/
 
-#DATA
+# Datasets
 ASL_Dataset/
+dataset/
 landmark_dataset/
 external_datasets/
 
-# Large files and datasets
-dataset/
-models/
-*.pyd
-*.dll
-*.task
-*.pickle
-*.h5
-*.pb
-*.tflite
+# Generated landmarks
+word_training/landmarks/
 
-# Cache
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -32,3 +26,12 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Large model formats
+*.h5
+*.pb
+*.tflite
+*.task
+*.pickle
+*.dll
+*.pyd
