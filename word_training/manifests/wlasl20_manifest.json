@@ -1,0 +1,1592 @@
+[
+  {
+    "video_id": "12312",
+    "gloss": "computer",
+    "split": "val",
+    "signer_id": 38,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12312.mp4"
+  },
+  {
+    "video_id": "12311",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 56,
+    "instance_id": 13,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12311.mp4"
+  },
+  {
+    "video_id": "12313",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 16,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12313.mp4"
+  },
+  {
+    "video_id": "12314",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 17,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12314.mp4"
+  },
+  {
+    "video_id": "12315",
+    "gloss": "computer",
+    "split": "val",
+    "signer_id": 4,
+    "instance_id": 18,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12315.mp4"
+  },
+  {
+    "video_id": "12316",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 19,
+    "variation_id": 2,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12316.mp4"
+  },
+  {
+    "video_id": "12317",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 20,
+    "variation_id": 2,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12317.mp4"
+  },
+  {
+    "video_id": "12318",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 21,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12318.mp4"
+  },
+  {
+    "video_id": "12319",
+    "gloss": "computer",
+    "split": "train",
+    "signer_id": 45,
+    "instance_id": 22,
+    "variation_id": 2,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12319.mp4"
+  },
+  {
+    "video_id": "12320",
+    "gloss": "computer",
+    "split": "test",
+    "signer_id": 59,
+    "instance_id": 23,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\12320.mp4"
+  },
+  {
+    "video_id": "57934",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 6,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57934.mp4"
+  },
+  {
+    "video_id": "57935",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57935.mp4"
+  },
+  {
+    "video_id": "57936",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 32,
+    "instance_id": 9,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57936.mp4"
+  },
+  {
+    "video_id": "57937",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 10,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57937.mp4"
+  },
+  {
+    "video_id": "57939",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57939.mp4"
+  },
+  {
+    "video_id": "57940",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 14,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57940.mp4"
+  },
+  {
+    "video_id": "57941",
+    "gloss": "thin",
+    "split": "test",
+    "signer_id": 32,
+    "instance_id": 15,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57941.mp4"
+  },
+  {
+    "video_id": "57942",
+    "gloss": "thin",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 16,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57942.mp4"
+  },
+  {
+    "video_id": "57933",
+    "gloss": "thin",
+    "split": "val",
+    "signer_id": 56,
+    "instance_id": 18,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57933.mp4"
+  },
+  {
+    "video_id": "57943",
+    "gloss": "thin",
+    "split": "test",
+    "signer_id": 34,
+    "instance_id": 20,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57943.mp4"
+  },
+  {
+    "video_id": "69534",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 118,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69534.mp4"
+  },
+  {
+    "video_id": "63226",
+    "gloss": "who",
+    "split": "test",
+    "signer_id": 36,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63226.mp4"
+  },
+  {
+    "video_id": "63227",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 9,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63227.mp4"
+  },
+  {
+    "video_id": "63228",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63228.mp4"
+  },
+  {
+    "video_id": "63229",
+    "gloss": "who",
+    "split": "val",
+    "signer_id": 4,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63229.mp4"
+  },
+  {
+    "video_id": "63230",
+    "gloss": "who",
+    "split": "val",
+    "signer_id": 46,
+    "instance_id": 12,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63230.mp4"
+  },
+  {
+    "video_id": "63231",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63231.mp4"
+  },
+  {
+    "video_id": "63232",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63232.mp4"
+  },
+  {
+    "video_id": "63225",
+    "gloss": "who",
+    "split": "train",
+    "signer_id": 42,
+    "instance_id": 20,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\63225.mp4"
+  },
+  {
+    "video_id": "69281",
+    "gloss": "cool",
+    "split": "train",
+    "signer_id": 116,
+    "instance_id": 0,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69281.mp4"
+  },
+  {
+    "video_id": "13197",
+    "gloss": "cool",
+    "split": "val",
+    "signer_id": 4,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13197.mp4"
+  },
+  {
+    "video_id": "13198",
+    "gloss": "cool",
+    "split": "test",
+    "signer_id": 4,
+    "instance_id": 9,
+    "variation_id": 2,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13198.mp4"
+  },
+  {
+    "video_id": "13199",
+    "gloss": "cool",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 10,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13199.mp4"
+  },
+  {
+    "video_id": "13200",
+    "gloss": "cool",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13200.mp4"
+  },
+  {
+    "video_id": "13201",
+    "gloss": "cool",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 12,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13201.mp4"
+  },
+  {
+    "video_id": "13202",
+    "gloss": "cool",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 14,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13202.mp4"
+  },
+  {
+    "video_id": "13203",
+    "gloss": "cool",
+    "split": "val",
+    "signer_id": 17,
+    "instance_id": 15,
+    "variation_id": 2,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13203.mp4"
+  },
+  {
+    "video_id": "13196",
+    "gloss": "cool",
+    "split": "test",
+    "signer_id": 4,
+    "instance_id": 18,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13196.mp4"
+  },
+  {
+    "video_id": "59206",
+    "gloss": "trade",
+    "split": "test",
+    "signer_id": 31,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59206.mp4"
+  },
+  {
+    "video_id": "59207",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 2,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59207.mp4"
+  },
+  {
+    "video_id": "59208",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 3,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59208.mp4"
+  },
+  {
+    "video_id": "59209",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59209.mp4"
+  },
+  {
+    "video_id": "59210",
+    "gloss": "trade",
+    "split": "val",
+    "signer_id": 4,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59210.mp4"
+  },
+  {
+    "video_id": "59211",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59211.mp4"
+  },
+  {
+    "video_id": "59212",
+    "gloss": "trade",
+    "split": "val",
+    "signer_id": 21,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59212.mp4"
+  },
+  {
+    "video_id": "59204",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 19,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59204.mp4"
+  },
+  {
+    "video_id": "59205",
+    "gloss": "trade",
+    "split": "train",
+    "signer_id": 28,
+    "instance_id": 16,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\59205.mp4"
+  },
+  {
+    "video_id": "05728",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 32,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05728.mp4"
+  },
+  {
+    "video_id": "05729",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 46,
+    "instance_id": 11,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05729.mp4"
+  },
+  {
+    "video_id": "05730",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 32,
+    "instance_id": 12,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05730.mp4"
+  },
+  {
+    "video_id": "05731",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 14,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05731.mp4"
+  },
+  {
+    "video_id": "05732",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05732.mp4"
+  },
+  {
+    "video_id": "05733",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 16,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05733.mp4"
+  },
+  {
+    "video_id": "05734",
+    "gloss": "before",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 17,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05734.mp4"
+  },
+  {
+    "video_id": "05727",
+    "gloss": "before",
+    "split": "test",
+    "signer_id": 38,
+    "instance_id": 20,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\05727.mp4"
+  },
+  {
+    "video_id": "57628",
+    "gloss": "thanksgiving",
+    "split": "val",
+    "signer_id": 19,
+    "instance_id": 4,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57628.mp4"
+  },
+  {
+    "video_id": "57629",
+    "gloss": "thanksgiving",
+    "split": "val",
+    "signer_id": 2,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57629.mp4"
+  },
+  {
+    "video_id": "57630",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57630.mp4"
+  },
+  {
+    "video_id": "57631",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 8,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57631.mp4"
+  },
+  {
+    "video_id": "57632",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 9,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57632.mp4"
+  },
+  {
+    "video_id": "57633",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 10,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57633.mp4"
+  },
+  {
+    "video_id": "57634",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 15,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57634.mp4"
+  },
+  {
+    "video_id": "57635",
+    "gloss": "thanksgiving",
+    "split": "train",
+    "signer_id": 15,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\57635.mp4"
+  },
+  {
+    "video_id": "56838",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 3,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56838.mp4"
+  },
+  {
+    "video_id": "56839",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 32,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56839.mp4"
+  },
+  {
+    "video_id": "56840",
+    "gloss": "tall",
+    "split": "val",
+    "signer_id": 32,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56840.mp4"
+  },
+  {
+    "video_id": "56841",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56841.mp4"
+  },
+  {
+    "video_id": "56842",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 7,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56842.mp4"
+  },
+  {
+    "video_id": "56843",
+    "gloss": "tall",
+    "split": "test",
+    "signer_id": 13,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56843.mp4"
+  },
+  {
+    "video_id": "56844",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 34,
+    "instance_id": 9,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56844.mp4"
+  },
+  {
+    "video_id": "56837",
+    "gloss": "tall",
+    "split": "train",
+    "signer_id": 63,
+    "instance_id": 14,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\56837.mp4"
+  },
+  {
+    "video_id": "09950",
+    "gloss": "change",
+    "split": "test",
+    "signer_id": 2,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09950.mp4"
+  },
+  {
+    "video_id": "09953",
+    "gloss": "change",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09953.mp4"
+  },
+  {
+    "video_id": "09954",
+    "gloss": "change",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09954.mp4"
+  },
+  {
+    "video_id": "09955",
+    "gloss": "change",
+    "split": "val",
+    "signer_id": 52,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09955.mp4"
+  },
+  {
+    "video_id": "09956",
+    "gloss": "change",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 14,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09956.mp4"
+  },
+  {
+    "video_id": "09957",
+    "gloss": "change",
+    "split": "val",
+    "signer_id": 59,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09957.mp4"
+  },
+  {
+    "video_id": "09949",
+    "gloss": "change",
+    "split": "train",
+    "signer_id": 66,
+    "instance_id": 17,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09949.mp4"
+  },
+  {
+    "video_id": "09960",
+    "gloss": "change",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 19,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09960.mp4"
+  },
+  {
+    "video_id": "69251",
+    "gloss": "brother",
+    "split": "test",
+    "signer_id": 116,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69251.mp4"
+  },
+  {
+    "video_id": "07937",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 52,
+    "instance_id": 3,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07937.mp4"
+  },
+  {
+    "video_id": "07938",
+    "gloss": "brother",
+    "split": "val",
+    "signer_id": 59,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07938.mp4"
+  },
+  {
+    "video_id": "07932",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 2,
+    "instance_id": 9,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07932.mp4"
+  },
+  {
+    "video_id": "07933",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07933.mp4"
+  },
+  {
+    "video_id": "07934",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 14,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07934.mp4"
+  },
+  {
+    "video_id": "07935",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07935.mp4"
+  },
+  {
+    "video_id": "07936",
+    "gloss": "brother",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 16,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07936.mp4"
+  },
+  {
+    "video_id": "09920",
+    "gloss": "champion",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09920.mp4"
+  },
+  {
+    "video_id": "09921",
+    "gloss": "champion",
+    "split": "train",
+    "signer_id": 45,
+    "instance_id": 2,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09921.mp4"
+  },
+  {
+    "video_id": "09922",
+    "gloss": "champion",
+    "split": "val",
+    "signer_id": 59,
+    "instance_id": 3,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09922.mp4"
+  },
+  {
+    "video_id": "09915",
+    "gloss": "champion",
+    "split": "test",
+    "signer_id": 56,
+    "instance_id": 9,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09915.mp4"
+  },
+  {
+    "video_id": "09916",
+    "gloss": "champion",
+    "split": "val",
+    "signer_id": 4,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09916.mp4"
+  },
+  {
+    "video_id": "09917",
+    "gloss": "champion",
+    "split": "test",
+    "signer_id": 4,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09917.mp4"
+  },
+  {
+    "video_id": "09918",
+    "gloss": "champion",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 12,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09918.mp4"
+  },
+  {
+    "video_id": "09919",
+    "gloss": "champion",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09919.mp4"
+  },
+  {
+    "video_id": "69259",
+    "gloss": "carrot",
+    "split": "train",
+    "signer_id": 117,
+    "instance_id": 0,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69259.mp4"
+  },
+  {
+    "video_id": "09311",
+    "gloss": "carrot",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 2,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09311.mp4"
+  },
+  {
+    "video_id": "09305",
+    "gloss": "carrot",
+    "split": "train",
+    "signer_id": 2,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09305.mp4"
+  },
+  {
+    "video_id": "09306",
+    "gloss": "carrot",
+    "split": "train",
+    "signer_id": 56,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09306.mp4"
+  },
+  {
+    "video_id": "09307",
+    "gloss": "carrot",
+    "split": "val",
+    "signer_id": 38,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09307.mp4"
+  },
+  {
+    "video_id": "09308",
+    "gloss": "carrot",
+    "split": "test",
+    "signer_id": 32,
+    "instance_id": 12,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09308.mp4"
+  },
+  {
+    "video_id": "09309",
+    "gloss": "carrot",
+    "split": "test",
+    "signer_id": 4,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09309.mp4"
+  },
+  {
+    "video_id": "09310",
+    "gloss": "carrot",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 14,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\09310.mp4"
+  },
+  {
+    "video_id": "08916",
+    "gloss": "candy",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 6,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08916.mp4"
+  },
+  {
+    "video_id": "08917",
+    "gloss": "candy",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08917.mp4"
+  },
+  {
+    "video_id": "08918",
+    "gloss": "candy",
+    "split": "val",
+    "signer_id": 39,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08918.mp4"
+  },
+  {
+    "video_id": "08919",
+    "gloss": "candy",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 9,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08919.mp4"
+  },
+  {
+    "video_id": "08920",
+    "gloss": "candy",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08920.mp4"
+  },
+  {
+    "video_id": "08921",
+    "gloss": "candy",
+    "split": "train",
+    "signer_id": 17,
+    "instance_id": 11,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08921.mp4"
+  },
+  {
+    "video_id": "08915",
+    "gloss": "candy",
+    "split": "test",
+    "signer_id": 56,
+    "instance_id": 18,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\08915.mp4"
+  },
+  {
+    "video_id": "13631",
+    "gloss": "cousin",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13631.mp4"
+  },
+  {
+    "video_id": "13632",
+    "gloss": "cousin",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13632.mp4"
+  },
+  {
+    "video_id": "13633",
+    "gloss": "cousin",
+    "split": "val",
+    "signer_id": 60,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13633.mp4"
+  },
+  {
+    "video_id": "13634",
+    "gloss": "cousin",
+    "split": "val",
+    "signer_id": 59,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13634.mp4"
+  },
+  {
+    "video_id": "13635",
+    "gloss": "cousin",
+    "split": "test",
+    "signer_id": 59,
+    "instance_id": 9,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13635.mp4"
+  },
+  {
+    "video_id": "13636",
+    "gloss": "cousin",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13636.mp4"
+  },
+  {
+    "video_id": "13630",
+    "gloss": "cousin",
+    "split": "train",
+    "signer_id": 35,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\13630.mp4"
+  },
+  {
+    "video_id": "14882",
+    "gloss": "deaf",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14882.mp4"
+  },
+  {
+    "video_id": "14883",
+    "gloss": "deaf",
+    "split": "test",
+    "signer_id": 45,
+    "instance_id": 10,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14883.mp4"
+  },
+  {
+    "video_id": "14884",
+    "gloss": "deaf",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 11,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14884.mp4"
+  },
+  {
+    "video_id": "14885",
+    "gloss": "deaf",
+    "split": "train",
+    "signer_id": 45,
+    "instance_id": 12,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14885.mp4"
+  },
+  {
+    "video_id": "14886",
+    "gloss": "deaf",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14886.mp4"
+  },
+  {
+    "video_id": "14887",
+    "gloss": "deaf",
+    "split": "val",
+    "signer_id": 59,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14887.mp4"
+  },
+  {
+    "video_id": "14888",
+    "gloss": "deaf",
+    "split": "test",
+    "signer_id": 15,
+    "instance_id": 16,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\14888.mp4"
+  },
+  {
+    "video_id": "69546",
+    "gloss": "yes",
+    "split": "val",
+    "signer_id": 118,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69546.mp4"
+  },
+  {
+    "video_id": "64287",
+    "gloss": "yes",
+    "split": "val",
+    "signer_id": 13,
+    "instance_id": 2,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64287.mp4"
+  },
+  {
+    "video_id": "64284",
+    "gloss": "yes",
+    "split": "train",
+    "signer_id": 3,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64284.mp4"
+  },
+  {
+    "video_id": "64280",
+    "gloss": "yes",
+    "split": "train",
+    "signer_id": 28,
+    "instance_id": 15,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64280.mp4"
+  },
+  {
+    "video_id": "64281",
+    "gloss": "yes",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 19,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64281.mp4"
+  },
+  {
+    "video_id": "64288",
+    "gloss": "yes",
+    "split": "train",
+    "signer_id": 15,
+    "instance_id": 20,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64288.mp4"
+  },
+  {
+    "video_id": "64283",
+    "gloss": "yes",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 23,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\64283.mp4"
+  },
+  {
+    "video_id": "69368",
+    "gloss": "hot",
+    "split": "val",
+    "signer_id": 118,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69368.mp4"
+  },
+  {
+    "video_id": "28108",
+    "gloss": "hot",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28108.mp4"
+  },
+  {
+    "video_id": "28109",
+    "gloss": "hot",
+    "split": "train",
+    "signer_id": 52,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28109.mp4"
+  },
+  {
+    "video_id": "28110",
+    "gloss": "hot",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28110.mp4"
+  },
+  {
+    "video_id": "28111",
+    "gloss": "hot",
+    "split": "train",
+    "signer_id": 39,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28111.mp4"
+  },
+  {
+    "video_id": "28112",
+    "gloss": "hot",
+    "split": "val",
+    "signer_id": 21,
+    "instance_id": 8,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28112.mp4"
+  },
+  {
+    "video_id": "28107",
+    "gloss": "hot",
+    "split": "train",
+    "signer_id": 0,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\28107.mp4"
+  },
+  {
+    "video_id": "69531",
+    "gloss": "what",
+    "split": "val",
+    "signer_id": 118,
+    "instance_id": 1,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69531.mp4"
+  },
+  {
+    "video_id": "62967",
+    "gloss": "what",
+    "split": "test",
+    "signer_id": 39,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62967.mp4"
+  },
+  {
+    "video_id": "62968",
+    "gloss": "what",
+    "split": "train",
+    "signer_id": 32,
+    "instance_id": 7,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62968.mp4"
+  },
+  {
+    "video_id": "62970",
+    "gloss": "what",
+    "split": "train",
+    "signer_id": 13,
+    "instance_id": 11,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62970.mp4"
+  },
+  {
+    "video_id": "62964",
+    "gloss": "what",
+    "split": "train",
+    "signer_id": 42,
+    "instance_id": 21,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62964.mp4"
+  },
+  {
+    "video_id": "62965",
+    "gloss": "what",
+    "split": "val",
+    "signer_id": 36,
+    "instance_id": 27,
+    "variation_id": 1,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62965.mp4"
+  },
+  {
+    "video_id": "62966",
+    "gloss": "what",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 29,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\62966.mp4"
+  },
+  {
+    "video_id": "07389",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 38,
+    "instance_id": 2,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07389.mp4"
+  },
+  {
+    "video_id": "07390",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 3,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07390.mp4"
+  },
+  {
+    "video_id": "07391",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07391.mp4"
+  },
+  {
+    "video_id": "07392",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 31,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07392.mp4"
+  },
+  {
+    "video_id": "07393",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 4,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07393.mp4"
+  },
+  {
+    "video_id": "07394",
+    "gloss": "bowling",
+    "split": "train",
+    "signer_id": 59,
+    "instance_id": 7,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07394.mp4"
+  },
+  {
+    "video_id": "07388",
+    "gloss": "bowling",
+    "split": "val",
+    "signer_id": 2,
+    "instance_id": 13,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\07388.mp4"
+  },
+  {
+    "video_id": "69316",
+    "gloss": "family",
+    "split": "val",
+    "signer_id": 116,
+    "instance_id": 1,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\69316.mp4"
+  },
+  {
+    "video_id": "20980",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 36,
+    "instance_id": 3,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20980.mp4"
+  },
+  {
+    "video_id": "20981",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 52,
+    "instance_id": 4,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20981.mp4"
+  },
+  {
+    "video_id": "20982",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 6,
+    "instance_id": 5,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20982.mp4"
+  },
+  {
+    "video_id": "20983",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 21,
+    "instance_id": 6,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20983.mp4"
+  },
+  {
+    "video_id": "20978",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 19,
+    "instance_id": 12,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20978.mp4"
+  },
+  {
+    "video_id": "20979",
+    "gloss": "family",
+    "split": "train",
+    "signer_id": 37,
+    "instance_id": 19,
+    "variation_id": 0,
+    "fps": 25,
+    "video_path": "external_datasets\\WLASL\\start_kit\\videos\\20979.mp4"
+  }
+]

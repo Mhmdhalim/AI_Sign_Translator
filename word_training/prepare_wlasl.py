@@ -18,7 +18,7 @@ VIDEOS_DIR = WLASL_ROOT / "videos"
 
 OUTPUT_DIR = PROJECT_ROOT / "word_training" / "manifests"
 
-TOP_K = 100
+TOP_K = 20
 MIN_SAMPLES_PER_CLASS = 5
 
 
@@ -56,9 +56,7 @@ def build_manifest(
     dataset: list[dict],
     existing_video_ids: set[str],
 ) -> tuple[list[dict], list[str], Counter]:
-    manifest = []
-    selected_classes = []
-    class_counts = Counter()
+    candidates = []
 
     for gloss_entry in dataset:
         gloss = str(gloss_entry.get("gloss", "")).strip()
@@ -71,10 +69,7 @@ def build_manifest(
         for instance in gloss_entry.get("instances", []):
             video_id = str(instance.get("video_id", "")).strip()
 
-            if not video_id:
-                continue
-
-            if video_id not in existing_video_ids:
+            if not video_id or video_id not in existing_video_ids:
                 continue
 
             video_path = VIDEOS_DIR / f"{video_id}.mp4"
@@ -94,18 +89,26 @@ def build_manifest(
                 }
             )
 
-        if len(valid_instances) < MIN_SAMPLES_PER_CLASS:
-            continue
+        if len(valid_instances) >= MIN_SAMPLES_PER_CLASS:
+            candidates.append((gloss, valid_instances))
 
+    candidates.sort(
+        key=lambda item: len(item[1]),
+        reverse=True,
+    )
+
+    selected_candidates = candidates[:TOP_K]
+
+    manifest = []
+    selected_classes = []
+    class_counts = Counter()
+
+    for gloss, instances in selected_candidates:
         selected_classes.append(gloss)
-        manifest.extend(valid_instances)
-        class_counts[gloss] = len(valid_instances)
-
-        if len(selected_classes) >= TOP_K:
-            break
+        manifest.extend(instances)
+        class_counts[gloss] = len(instances)
 
     return manifest, selected_classes, class_counts
-
 
 def save_manifest(
     manifest: list[dict],
@@ -114,9 +117,9 @@ def save_manifest(
 ) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    manifest_path = OUTPUT_DIR / "wlasl100_manifest.json"
-    classes_path = OUTPUT_DIR / "wlasl100_classes.txt"
-    summary_path = OUTPUT_DIR / "wlasl100_summary.csv"
+    manifest_path = OUTPUT_DIR / "wlasl20_manifest.json"
+    classes_path = OUTPUT_DIR / "wlasl20_classes.txt"
+    summary_path = OUTPUT_DIR / "wlasl20_summary.csv"
 
     with manifest_path.open("w", encoding="utf-8") as file:
         json.dump(manifest, file, indent=2, ensure_ascii=False)

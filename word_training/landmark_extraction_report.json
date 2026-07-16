@@ -1,9 +1,9 @@
 {
-  "manifest_samples": 607,
+  "manifest_samples": 159,
   "sequence_length": 30,
   "feature_size": 258,
-  "saved": 587,
-  "skipped_existing": 20,
+  "saved": 159,
+  "skipped_existing": 0,
   "failed": 0,
   "failed_samples": []
 }

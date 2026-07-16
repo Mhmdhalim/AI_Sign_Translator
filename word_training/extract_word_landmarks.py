@@ -14,7 +14,7 @@ MANIFEST_PATH = (
     PROJECT_ROOT
     / "word_training"
     / "manifests"
-    / "wlasl100_manifest.json"
+    / "wlasl20_manifest.json"
 )
 
 OUTPUT_DIR = (
