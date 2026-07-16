@@ -97,11 +97,6 @@ def create_speech_system(voice_id):
         pythoncom.CoInitialize()
 
         try:
-            engine = pyttsx3.init()
-            engine.setProperty("voice", voice_id)
-            engine.setProperty("rate", 150)
-            engine.setProperty("volume", 1.0)
-
             while True:
                 text = speech_queue.get()
 
@@ -111,18 +106,23 @@ def create_speech_system(voice_id):
 
                     cleaned_text = str(text).strip()
 
-                    if cleaned_text:
-                        engine.stop()
-                        engine.say(cleaned_text)
-                        engine.runAndWait()
+                    if not cleaned_text:
+                        continue
+
+                    engine = pyttsx3.init()
+                    engine.setProperty("voice", voice_id)
+                    engine.setProperty("rate", 150)
+                    engine.setProperty("volume", 1.0)
+
+                    engine.say(cleaned_text)
+                    engine.runAndWait()
+                    engine.stop()
 
                 except Exception as error:
                     print(f"Speech error: {error}")
 
                 finally:
                     speech_queue.task_done()
-
-            engine.stop()
 
         finally:
             pythoncom.CoUninitialize()

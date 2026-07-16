@@ -9,6 +9,7 @@ run_env/
 dataset_env/
 training_env/
 translation_env/
+speech_env/
 
 # Datasets
 ASL_Dataset/

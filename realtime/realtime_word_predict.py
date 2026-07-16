@@ -17,8 +17,8 @@ CLASSES_PATH = PROJECT_ROOT / "models" / "word_classes.npy"
 SEQUENCE_LENGTH = 30
 FEATURE_SIZE = 258
 
-CONFIDENCE_THRESHOLD = 0.10
-SMOOTHING_WINDOW = 3
+CONFIDENCE_THRESHOLD = 0.50
+SMOOTHING_WINDOW = 5
 PREDICTION_COOLDOWN = 1.5
 
 TRANSLATION_URL = "http://127.0.0.1:5000/translate"
@@ -285,8 +285,6 @@ def main():
                     confidence = float(
                         probabilities[class_index]
                     )
-                    
-                    current_prediction = predicted_word
                     
                     prediction_history.append(
                         predicted_word
