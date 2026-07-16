@@ -10,6 +10,7 @@ run_env/
 #DATA
 ASL_Dataset/
 landmark_dataset/
+external_datasets/
 
 # Large files and datasets
 dataset/
